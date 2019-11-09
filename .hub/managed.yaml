@@ -4,7 +4,7 @@ parameters:
   - name: application.humanName
     value: python2
   - name: application.ingress
-    value: python2.app.nucs5.wh7-ca2.dev.superhub.io
+    value: python2.app.nucs6.wh7-ca2.dev.superhub.io
   - name: application.name
     value: python2
   - name: application.namespace
@@ -12,13 +12,13 @@ parameters:
   - name: application.path
     value: /
   - name: application.replicas
-    value: '1'
+    value: '3'
   - name: author.email
-    value: igor@agilestacks.com
+    value: walter@agilestacks.com
   - name: author.id
-    value: 00uacz9qcaAVy1TMI0h7
+    value: 00ulu8wh4rWfKzRIE0h7
   - name: author.name
-    value: Igor Mameshin
+    value: Walter Hanau
   - name: author.organization
     value: ASI
   - name: component.dex.okta.appId
@@ -30,13 +30,13 @@ parameters:
   - name: component.docker.auth.basic.username
     value: admin
   - name: component.docker.auth.host
-    value: devops-harbor.app.nucs5.wh7-ca2.dev.superhub.io
+    value: devops-harbor-harbor-core.harbor.svc.cluster.local
   - name: component.docker.registry.image
-    value: devops-harbor.app.nucs5.wh7-ca2.dev.superhub.io/library/python2
+    value: devops-harbor-harbor-core.harbor.svc.cluster.local/library/python2
   - name: component.docker.registry.kind
     value: harbor
   - name: component.docker.registry.url
-    value: devops-harbor.app.nucs5.wh7-ca2.dev.superhub.io/library
+    value: devops-harbor-harbor-core.harbor.svc.cluster.local/library
   - name: component.github.repository.name
     value: python2
   - name: component.github.repository.organization
